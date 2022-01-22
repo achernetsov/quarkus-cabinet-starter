@@ -1,3 +1,23 @@
+# Start dev environment
+
+```shell
+./mvn clean quarkus:dev
+```
+
+wait for everything to boot...
+
+Open [http://localhost:8080](http://localhost:8080)
+
+Login as alice/alice. You'll be redirected to index page.
+
+Open [http://localhost:8080/q/dev/](http://localhost:8080/q/dev/) to enter quarkus dev console.
+
+How this works: see description below.
+
+# Credits and origin
+
+https://github.com/quarkusio/quarkus-quickstarts
+
 # Authentication in Web Applications Using OpenID Connect
 
 This is a minimal web application serving a single HTML file and a JAX-RS Resource to serve a HTML content.
