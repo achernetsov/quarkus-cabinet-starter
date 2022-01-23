@@ -1,4 +1,4 @@
-package org.acme.security.openid.connect.web.authentication;
+package ru.archertech.starter.authentication;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;

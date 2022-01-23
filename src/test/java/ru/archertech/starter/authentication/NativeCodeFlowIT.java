@@ -1,4 +1,4 @@
-package org.acme.security.openid.connect.web.authentication;
+package ru.archertech.starter.authentication;
 
 import io.quarkus.test.junit.NativeImageTest;
 

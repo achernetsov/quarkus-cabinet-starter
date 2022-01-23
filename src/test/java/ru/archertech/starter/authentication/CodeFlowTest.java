@@ -1,4 +1,4 @@
-package org.acme.security.openid.connect.web.authentication;
+package ru.archertech.starter.authentication;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;

@@ -6,9 +6,9 @@
 
 wait for everything to boot...
 
-Open [http://localhost:8080](http://localhost:8080)
+Open [http://localhost:8080/items](http://localhost:8080)
 
-Login as alice/alice. You'll be redirected to index page.
+Login as alice/alice. You'll be redirected to Alice's items page.
 
 Open [http://localhost:8080/q/dev/](http://localhost:8080/q/dev/) to enter quarkus dev console.
 
@@ -17,6 +17,16 @@ How this works: see description below.
 # Credits and origin
 
 https://github.com/quarkusio/quarkus-quickstarts
+
+Quickstarts used:
+- security-openid-connect-web-authentication-quickstart
+- security-openid-connect-quickstart
+- qute-quickstart
+
+## References
+- https://quarkus.io/guides/qute
+- https://quarkus.io/guides/security-openid-connect
+- About OIDC logout: https://github.com/keycloak/keycloak-documentation/blob/main/securing_apps/topics/oidc/java/logout.adoc
 
 # Authentication in Web Applications Using OpenID Connect
 
